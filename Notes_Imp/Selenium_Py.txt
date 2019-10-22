@@ -4,7 +4,7 @@
 
 # The browser object provides a programmable interface to communicate with the browser using the Selenium commands.
 
-	@classmethod
+    @classmethod
     def setUpClass(inst):
         # create a new Firefox session
         inst.driver = webdriver.Firefox()
